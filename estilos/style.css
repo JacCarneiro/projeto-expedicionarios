@@ -18,7 +18,7 @@
     margin: 0px;
     padding: 0px;
 }
-body, html{
+body{
     font-family: var(--font-padrao);
     
 }
