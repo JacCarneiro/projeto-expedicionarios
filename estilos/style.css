@@ -95,6 +95,26 @@ div#contribua{
     margin: auto;
 }
 
+aside > ul > p{
+    margin-bottom: 20px;
+    color: #ED6B0E;
+    font-weight: bolder;
+}
+.v-line{
+    border-left: solid #ED6B0E;
+    height:140px;
+    left: 50%;
+    position: absolute;
+
+   }
+footer{
+    background-color: #0F2D43;
+    color: white;
+    text-align: center;
+}
+footer > p{
+    padding-bottom: 10px;
+}
 /*
 #img-mural{
     width: 100%;
