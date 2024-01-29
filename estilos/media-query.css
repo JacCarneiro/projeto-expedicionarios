@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* Typical Devices Breakpoits
+Celular: Até 600px
+Tablet: 600px até 768px
+Desktop: 768px 992px
+TV: 992px até 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    img{
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+   
+    }
+
+    body{
+        background-image: linear-gradient(to top, #025B8A, #0375b3, #0692dd);
+    }
+    
+    section#Login{
+        width: 50vw;
+        height: 300px;
+        padding: 20px;
+    }
+
+    section#Login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    
+    section#Login > div#formulário{
+        float: right;
+        width: 70%;
+        height: 100%;
+        
+    }
+
+}
+
+@media screen and (min-width: 992px){
+    
+    img{
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+    body{
+        background-image: linear-gradient(to top, #025B8A, #0375b3, #0692dd);
+    }
+    
+    section#Login{
+        width: 35vw;
+        height: 50vh;
+        padding: 30px;
+    }
+
+    section#Login > div#imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    section#Login > div#formulário {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+   
+    div#formulário > h1{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    div#formulário > p{
+        font-size: 1.2em;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    .titulo{
+        text-align: center;
+    }
+
+}
